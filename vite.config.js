@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/{{REPO_NAME}}/' : '/',
+  base: mode === 'production' ? '/product-preview-card-component/' : '/',
 
   server: {
     open: true,
