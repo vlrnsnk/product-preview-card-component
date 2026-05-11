@@ -1,19 +1,9 @@
-# Frontend Mentor - {{PROJECT_NAME}} solution
+# Frontend Mentor - Product preview card component solution
 
 This is a solution to the [Product preview card component on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 Frontend Mentor challenges help improve frontend skills by building realistic UI components.
 
 ## 🚀 Using this template
-
-### 7. Update dependencies (optional)
-
-```bash
-npx npm-check-updates -u
-```
-
-### 8. Update docs
-
-Put design files and style guide in docs directory.
 
 ### 9. Update favicons
 
