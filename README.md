@@ -25,6 +25,9 @@ Upload `./preview.png` (894xHEIGHT size) and create `public/og-image.png` (1200x
   - [Linting](#linting)
 - [Deployment](#deployment)
 - [Performance](#performance)
+- [Continued Development](#continued-development)
+- [Useful Resources](#useful-resources)
+- [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 - [Notes](#notes)
 
