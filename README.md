@@ -5,10 +5,6 @@ Frontend Mentor challenges help improve frontend skills by building realistic UI
 
 ## 🚀 Using this template
 
-### 9. Update favicons
-
-Upload favicons to public directory (realfavicongenerator.net is recommended).
-
 ### 10. Upload assets
 
 Put fonts to `src/fonts/` and content images to `src/images`.
