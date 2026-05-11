@@ -1,6 +1,6 @@
 {
-  "name": "Template",
-  "short_name": "Template",
+  "name": "Product Preview Card Component",
+  "short_name": "Product Preview Card Component",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
