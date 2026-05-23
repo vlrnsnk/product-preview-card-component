@@ -1,5 +1,6 @@
 /* Text presets */
 @use 'sass:list';
+@use 'variables' as *;
 
 /* Typography utility */
 @mixin text($font-family, $font-size, $font-weight, $line-height, $letter-spacing) {
@@ -8,6 +9,26 @@
   font-weight: $font-weight;
   line-height: $line-height;
   letter-spacing: $letter-spacing;
+}
+
+@mixin text-preset-1() {
+  @include text($font-fraunces, 2rem, 700, 1, 0);
+}
+
+@mixin text-preset-2() {
+  @include text($font-montserrat, 0.875rem, 700, 1.1, 0);
+}
+
+@mixin text-preset-3() {
+  @include text($font-montserrat, 0.875rem, 500, 1.6, 0);
+}
+
+@mixin text-preset-4() {
+  @include text($font-montserrat, 0.75rem, 500, 1.2, 0);
+}
+
+@mixin text-preset-5() {
+  @include text($font-montserrat, 0.8125rem, 500, 1.2, 0);
 }
 
 /* Transitions */
