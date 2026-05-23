@@ -1,3 +1,19 @@
 /* Colors */
+$color-black: hsl(212deg 21% 14%);
+$color-grey: hsl(228deg 12% 48%);
+$color-cream: hsl(30deg 38% 92%);
+$color-white: hsl(0deg 0% 100%);
+$color-green-500: hsl(158deg 36% 37%);
+$color-green-700: hsl(158deg 42% 18%);
 
 /* Spacing */
+$spacing-500: 2.5rem;
+$spacing-400: 2rem;
+$spacing-300: 1.5rem;
+$spacing-200: 1rem;
+$spacing-100: 0.5rem;
+$spacing-50: 0.25rem;
+
+/* Font Family */
+$font-fraunces: 'Fraunces', var(--font-family-serif);
+$font-montserrat: 'Montserrat', var(--font-family-sans-serif);

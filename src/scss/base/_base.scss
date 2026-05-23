@@ -2,8 +2,21 @@
 
 :root {
   --font-family-sans-serif: system-ui, sans-serif;
+  /* stylelint-disable-next-line value-keyword-case */
   --font-family-serif: Georgia, Cambria, 'Times New Roman', serif;
   --font-size-base: 16px;
+  --color-black: #{$color-black};
+  --color-grey: #{$color-grey};
+  --color-cream: #{$color-cream};
+  --color-white: #{$color-white};
+  --color-green-500: #{$color-green-500};
+  --color-green-700: #{$color-green-700};
+  --spacing-500: #{$spacing-500};
+  --spacing-400: #{$spacing-400};
+  --spacing-300: #{$spacing-300};
+  --spacing-200: #{$spacing-200};
+  --spacing-100: #{$spacing-100};
+  --spacing-50: #{$spacing-50};
 }
 
 html {
