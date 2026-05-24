@@ -1,0 +1,59 @@
+@use '../abstracts' as *;
+
+.product-card {
+  background-color: var(--color-white);
+  border-radius: var(--spacing-100);
+  overflow: hidden;
+
+  &__image {
+    display: block;
+    max-inline-size: 100%;
+    block-size: auto;
+    object-fit: cover;
+  }
+
+  &__content {
+    display: flex;
+    padding: var(--spacing-400);
+    flex-direction: column;
+    gap: var(--spacing-300);
+  }
+
+  &__category {
+    text-transform: uppercase;
+    color: var(--color-grey);
+
+    @include text-preset-4;
+  }
+
+  &__title {
+    margin: 0;
+
+    @include text-preset-1;
+  }
+
+  &__description {
+    color: var(--color-grey);
+
+    @include text-preset-3;
+  }
+
+  &__prices {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-200);
+  }
+
+  &__price {
+    color: var(--color-green-500);
+
+    @include text-preset-1;
+  }
+
+  &__original-price {
+    align-self: center;
+    color: var(--color-grey);
+
+    @include text-preset-5;
+  }
+}

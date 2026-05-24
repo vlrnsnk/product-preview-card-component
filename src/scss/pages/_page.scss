@@ -1,0 +1,9 @@
+.page {
+  display: flex;
+  min-height: 100vh;
+  padding: var(--spacing-150);
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-cream);
+  color: var(--color-black);
+}

@@ -5,18 +5,19 @@
   /* stylelint-disable-next-line value-keyword-case */
   --font-family-serif: Georgia, Cambria, 'Times New Roman', serif;
   --font-size-base: 16px;
-  --color-black: #{$color-black};
-  --color-grey: #{$color-grey};
-  --color-cream: #{$color-cream};
-  --color-white: #{$color-white};
-  --color-green-500: #{$color-green-500};
-  --color-green-700: #{$color-green-700};
-  --spacing-500: #{$spacing-500};
-  --spacing-400: #{$spacing-400};
-  --spacing-300: #{$spacing-300};
-  --spacing-200: #{$spacing-200};
-  --spacing-100: #{$spacing-100};
-  --spacing-50: #{$spacing-50};
+  --color-black: #{abstracts.$color-black};
+  --color-grey: #{abstracts.$color-grey};
+  --color-cream: #{abstracts.$color-cream};
+  --color-white: #{abstracts.$color-white};
+  --color-green-500: #{abstracts.$color-green-500};
+  --color-green-700: #{abstracts.$color-green-700};
+  --spacing-500: #{abstracts.$spacing-500};
+  --spacing-400: #{abstracts.$spacing-400};
+  --spacing-300: #{abstracts.$spacing-300};
+  --spacing-200: #{abstracts.$spacing-200};
+  --spacing-150: #{abstracts.$spacing-150};
+  --spacing-100: #{abstracts.$spacing-100};
+  --spacing-50: #{abstracts.$spacing-50};
 }
 
 html {
@@ -27,17 +28,14 @@ html {
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
 }
 
 html,
 body {
   height: 100%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 body {

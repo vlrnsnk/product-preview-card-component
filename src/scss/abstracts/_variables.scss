@@ -7,12 +7,13 @@ $color-green-500: hsl(158deg 36% 37%);
 $color-green-700: hsl(158deg 42% 18%);
 
 /* Spacing */
-$spacing-500: 2.5rem;
-$spacing-400: 2rem;
-$spacing-300: 1.5rem;
-$spacing-200: 1rem;
-$spacing-100: 0.5rem;
-$spacing-50: 0.25rem;
+$spacing-500: 2.5rem; // 40px
+$spacing-400: 2rem; // 32px
+$spacing-300: 1.5rem; // 24px
+$spacing-200: 1rem; // 16px
+$spacing-150: 0.75rem; // 12px
+$spacing-100: 0.5rem; // 8px
+$spacing-50: 0.25rem; // 4px
 
 /* Font Family */
 $font-fraunces: 'Fraunces', var(--font-family-serif);

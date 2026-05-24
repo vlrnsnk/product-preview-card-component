@@ -24,7 +24,7 @@
 }
 
 @mixin text-preset-4() {
-  @include text($font-montserrat, 0.75rem, 500, 1.2, 0);
+  @include text($font-montserrat, 0.75rem, 500, 1.2, 0.3125rem);
 }
 
 @mixin text-preset-5() {
