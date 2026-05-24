@@ -3,12 +3,6 @@
 This is a solution to the [Product preview card component on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 Frontend Mentor challenges help improve frontend skills by building realistic UI components.
 
-## 🚀 Using this template
-
-### 11. Add preview images
-
-Upload `./preview.png` (894xHEIGHT size) and create `public/og-image.png` (1200x630) after the project is ready for ease of sharing.
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -57,12 +51,14 @@ Users should be able to:
 
 ## Features
 
-- Responsive layout (mobile-first)
-- Accessible interactive states (hover + focus-visible)
-- SCSS modular architecture
-- CSS property ordering enforced via Stylelint
-- Optimized build with Vite
-- GitHub Pages deployment via GitHub Actions
+- Responsive mobile-first layout
+- Accessible interactive states (`hover`, `focus-visible`)
+- Semantic HTML structure
+- Modular SCSS architecture using `@use`
+- CSS custom properties for design tokens
+- Stylelint configuration with property ordering
+- Optimized production build with Vite
+- Automated deployment to GitHub Pages via GitHub Actions
 
 ## My process
 
@@ -71,7 +67,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - SCSS (modular architecture: abstracts, base, components, layout)
 - CSS custom properties (design tokens via SCSS variables)
-- Flexbox / Grid
+- Flexbox
 - Mobile-first workflow
 - Vite
 - Stylelint (code quality + property ordering)
@@ -80,9 +76,12 @@ Users should be able to:
 
 ### What I learned
 
-- {{LEARNING_1}}
-- {{LEARNING_2}}
-- {{LEARNING_3}}
+- Using <picture> with <source> for responsive images (different per breakpoint)
+- <_s_> vs <_del_> semantic difference for struck-through prices
+- BEM block/element/modifier decisions for a single-component layout
+- How to combine SCSS variables with CSS custom properties for maintainable design tokens
+- Improved responsive design workflow using mobile-first constraints and component max-width patterns
+- font-optical-sizing and variable font axes (Fraunces WONK axis)
 
 ## Setup
 
@@ -130,27 +129,29 @@ Project is built with Vite and deployed to GitHub Pages using GitHub Actions.
 
 Lighthouse score (example):
 
-- Performance: {{PERF_SCORE}}
-- Accessibility: {{ACCESSIBILITY_SCORE}}
-- Best Practices: {{BEST_PRACTICES_SCORE}}
-- SEO: {{SEO_SCORE}}
+- Performance: 100
+- Accessibility: 100
+- Best Practices: 100
+- SEO: 100
 
 ## Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- Variable fonts and axis control
+- CSS custom properties for theming
+- Accessibility and keyboard navigation
 
 ## Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN Web Docs](https://developer.mozilla.org) — Reference for semantic HTML, accessibility, CSS layout behavior, and modern CSS features.
+- [1-Line Layouts](https://1linelayouts.com) — Great resource for modern responsive layout patterns and intrinsic design principles.
 
 ## AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
+- Discussing semantic HTML and accessibility decisions
+- Reviewing BEM naming conventions and SCSS structure
+- Comparing approaches for responsive layouts and typography systems
+- Debugging layout and styling issues
+- Evaluating best practices for design tokens, font stacks, and CSS architecture
 
 ## Author
 
@@ -160,7 +161,9 @@ Describe how you used AI tools (if any) during this project. This helps demonstr
 
 ## Notes
 
-- Focus on accessibility (semantic HTML, focus-visible)
-- Modular SCSS architecture using @use
-- Consistent styling via Stylelint rules
-- Optimized build pipeline with Vite
+- Accessibility-focused semantic markup
+- Mobile-first responsive workflow
+- Modular SCSS architecture using `@use`
+- Consistent styling enforced with Stylelint
+- Optimized Vite build pipeline
+- GitHub Pages deployment with GitHub Actions
