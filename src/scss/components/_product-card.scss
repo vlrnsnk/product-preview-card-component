@@ -1,7 +1,7 @@
 @use '../abstracts' as *;
 
 .product-card {
-  max-width: 37.5rem;
+  max-width: 25rem;
   background-color: var(--color-white);
   border-radius: var(--spacing-100);
   overflow: hidden;
@@ -60,9 +60,11 @@
 
   @media screen and (width >= 48rem) {
     display: flex;
+    max-width: 37.5rem;
 
-    &__picture {
-      min-width: 18.75rem;
+    &__picture,
+    &__content {
+      width: 50%;
     }
 
     &__button {
